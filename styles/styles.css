@@ -9,6 +9,9 @@
     
    
 }
+main{
+    background-color: #efefef;
+}
 .contenedor-banner{
     width: 100%;
     object-fit: cover;
@@ -42,18 +45,37 @@ footer div ul{
 
 .footer-low{
     background-color: black;
-    color: white;
+    color: #efefef;
 }
+.footer-low p{
+    font-size: .9em;
+    text-align: right;
+    margin-right: 2em;
+}
+nav ul{
+    background-color: #fff;
+}
+
 nav ul li{
+    background-color: #fff;
     display: inline-block;
     padding: 10px;
     font-weight: 600;
 }
+nav ul li:hover{
+    text-decoration:overline;
+    
+}
 nav{
+    background-color: #fff;
     max-height: 120px;
     display: block;
 }
+nav div{
+    background-color: #fff;
+}
 .contenedor-nav-logo{
+    background-color: #fff;
     display: flex;
     width: 100%;
     padding-right: 15px;
@@ -63,7 +85,7 @@ nav{
 
 }
 .nav-bar {
-    
+    background-color: #fff;
     display: flex;
     position: relative;
     align-items: center;
@@ -106,11 +128,10 @@ h2{
 }
 .tarjeta-home:hover{
     box-shadow:
-    inset 
+        inset 
         1em 3em 3em rgba(0,0,0,0.8),
-          0 1px  0 2px rgb(255,255,255),
-          0.5em 0.5em 0.5em rgba(0,0,0,0.6) ;
-    transition: .5s;
+        0.5em 0.5em 0.5em rgba(0,0,0,0.6) ;
+        transition: .5s;
 }
 .tarjetas-secciones{
     
@@ -124,7 +145,7 @@ h2{
     justify-content: space-around;
 }
 .tarjeta-home{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 5px;
     max-width: 40.5em;
     aspect-ratio: 4.5/3;
@@ -153,6 +174,7 @@ h2{
     
 }
 .lista-fiestas ul li{
+    list-style: none;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -196,11 +218,11 @@ h2{
 }
 .galeria{
     width: 100%;
-    position: relative;
-    align-items: center;
-    align-content: center;
-    border-radius: 10px;
-    margin: auto;
+    
+    /* align-items: center; */
+    /* align-content: center; */
+    /* border-radius: 10px; */
+    
     padding: 30px;
 }
 .contenedor-cards{
@@ -208,6 +230,8 @@ h2{
     width: 84.375em;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin: 2em auto;
+
 
 }
 
