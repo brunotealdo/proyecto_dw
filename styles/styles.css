@@ -21,7 +21,8 @@ nav ul li a{
 
 .footer-sup{
     text-decoration: none;
-    background-color: #7C7C7C;
+    background: rgb(0,0,0);
+    background: linear-gradient(356deg, rgba(0,0,0,1) 0%, rgba(4,4,4,1) 12%, rgba(245,253,255,1) 100%);
     color: #e0c8c8;
     
     font-size: 1rem;
@@ -102,6 +103,14 @@ h2{
 .contenido-main{
     margin-right: 3.75em;
     margin-left: 3.75em;
+}
+.tarjeta-home:hover{
+    box-shadow:
+    inset 
+        1em 3em 3em rgba(0,0,0,0.8),
+          0 1px  0 2px rgb(255,255,255),
+          0.5em 0.5em 0.5em rgba(0,0,0,0.6) ;
+    transition: .5s;
 }
 .tarjetas-secciones{
     
@@ -265,6 +274,7 @@ h2{
     align-items: center;
     
 }
+
 @media only screen and (max-width: 500px){
     body{
         width: 100%;
